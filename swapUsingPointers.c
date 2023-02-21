@@ -1,3 +1,5 @@
+// Online C compiler to run C program online
+// swap two numbers
 #include <stdio.h>
 
 void swap(int *a,int *b){
@@ -7,9 +9,11 @@ void swap(int *a,int *b){
 }
 
 int main() {
-    int a=5;
-    int b=4;
+    // Write C code here
+    int a,b;
+    scanf("%d%d",&a,&b);
+    printf("Before Swapping : a=%d, b=%d\n",a,b);
     swap(&a,&b);
-    printf("%d, %d",a,b);
-	return 0;
+    printf("After Swapping : a=%d, b=%d",a,b);
+    return 0;
 }
